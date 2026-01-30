@@ -60,6 +60,39 @@
             animation: fadeInUp 1s ease 0.2s both;
         }
 
+        /* Video Section */
+        .video-section {
+            padding: 5rem 2rem;
+            background: white;
+            text-align: center;
+        }
+
+        .video-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+
+        .video-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+
+        .video-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
         .cta-button {
             display: inline-block;
             padding: 1rem 3rem;
@@ -215,6 +248,20 @@
             <h1>🌍 קיימות היא העתיד</h1>
             <p>יחד נבנה עולם ירוק יותר לדורות הבאים</p>
             <a href="#action" class="cta-button">הצטרפו למהפכה הירוקה</a>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2>🎬 המסע שלנו לקיימות</h2>
+            <p>סרטון מונפש שמסביר את חזון הקיימות שלנו</p>
+            <div class="video-container">
+                <video controls autoplay muted loop>
+                    <source src="sustainability.mp4" type="video/mp4">
+                    הדפדפן שלך לא תומך בתגית וידאו.
+                </video>
+            </div>
         </div>
     </section>
 
